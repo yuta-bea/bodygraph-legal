@@ -13,8 +13,9 @@
 4. 数分待つと以下のURLで公開される
 
 ```
-https://<GitHubユーザー名>.github.io/bodygraph-legal/terms.html
-https://<GitHubユーザー名>.github.io/bodygraph-legal/privacy.html
+https://yuta-bea.github.io/bodygraph-legal/terms.html      利用規約
+https://yuta-bea.github.io/bodygraph-legal/privacy.html    プライバシーポリシー
+https://yuta-bea.github.io/bodygraph-legal/support.html    サポート（App Store Connect の必須項目）
 ```
 
 ## 公開後にやること
@@ -22,10 +23,12 @@ https://<GitHubユーザー名>.github.io/bodygraph-legal/privacy.html
 **この2つのURLをCEOに渡す。** `app/src/lib/config.ts` の `TERMS_URL` と `PRIVACY_URL` に入れる。
 **JSの値なのでリビルドは不要。**
 
-## 🚨 公開前に必ず埋めるところ
+## 連絡先
 
-3ファイルすべてに **「（ここに連絡先メールアドレスを記入）」** がある。
-**実際に受け取れるメールアドレスに置き換えること。** Appleの審査で連絡先が確認される。
+`yutabation@gmail.com`（2026-08-20 に4ファイルへ記載済み）
+
+**Appleの審査で連絡先が確認される。** 変更する場合は
+`index.html` / `terms.html` / `privacy.html` / `support.html` の4ファイルすべてを直すこと。
 
 ## 中身について
 
